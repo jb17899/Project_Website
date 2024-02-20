@@ -1,0 +1,32 @@
+$(".box").mouseleave(function(event){
+  setTimeout(function(){$(".new-container").slideUp();},100);
+  });
+$(".box-one").mouseleave(function(event){
+  setTimeout(function(){$(".new-containers").slideUp();},100);
+});
+$(".box-two").mouseleave(function(event){
+    setTimeout(function(){$(".new-containera").slideUp();},100);
+})
+$(".box-three").mouseleave(function(event){
+    setTimeout(function(){$(".new-containerb").slideUp();},100);
+});
+$(".box-Four").mouseleave(function(event){
+    setTimeout(function(){$(".new-containerc").slideUp();},100);
+
+});
+          $(".new").bind("mouseover",function(){
+            $(".new-container").slideToggle();
+          })
+          $(".new-one").bind("mouseover",function(){
+            $(".new-containers").slideToggle();
+          })
+          $(".new-two").bind("mouseover",function(){
+            $(".new-containera").slideToggle();
+          })
+          $(".new-three").bind("mouseover",function(){
+            $(".new-containerb").slideToggle();
+          })
+          $(".new-Four").bind("mouseover",function(){
+            $(".new-containerc").slideToggle();
+          })
+          $('body').css('overflow', 'hidden');

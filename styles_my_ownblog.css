@@ -1,0 +1,139 @@
+
+.email-collection {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+ 
+}
+
+.email-box {
+    background-color: hwb(0 24% 73%);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #7013f2be;
+    width:50%;
+    text-align: center;
+}
+
+.email-box h2 {
+    color: #7417f7b6;
+    margin-bottom: 10px;
+}
+
+.email-box p {
+    color: hwb(291 13% 6% / 0.684);
+    margin-bottom: 20px;
+}
+
+.email-box form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-box input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b624cf;
+    border-radius: 5px;
+}
+
+.email-box button {
+    background-color: hsl(311, 94%, 52%);
+    color: #1809eb;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.email-box button:hover {
+    background-color: #b30077;
+}
+
+.follow-button {
+    text-align:right;
+    margin: 0px;
+}
+
+.follow-button button {
+    background-color: hwb(297 22% 43%); 
+    color: #4017f5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.follow-button button:hover {
+    background-color: #882145; 
+}
+.color45{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding:0px;
+    background-image: url("https://preview.redd.it/qq9rnxx4sg971.png?auto=webp&s=44fa08f8f31cb5f62683a8eba8f67bdb279ebfca");
+    background-size: cover;
+    background-position: center;
+    color: #d61eae; }
+
+
+header {
+    background: rgba(121, 155, 191, 0.8); 
+    color: #cd5b5b;
+    text-align: right;
+    padding: 20px;
+}
+.tick-box {
+    text-align: center;
+    margin: 20px 0;
+}
+.tick-box input{
+    display: none ;
+}
+
+
+
+.tick-box label {
+    display:block;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.tick-box input:checked + label {
+    background-color: #a7288c; 
+    color: #fff;
+}
+.social-icons {
+    text-align: right;
+    margin: 20px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;}
+.box1{
+height:700px;
+width:500px;
+border:2px solid;
+background-image: url("https://images.unsplash.com/photo-1568861368385-3534aca5cf41?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTd8fHxlbnwwfHx8fHw%3D"); 
+border-radius: 20px;
+}
+
+
